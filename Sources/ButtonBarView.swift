@@ -177,7 +177,7 @@ open class ButtonBarView: UICollectionView {
         case .middle:
             selectedBarFrame.origin.y = (frame.size.height - selectedBarHeight) / 2
         case .bottom:
-            selectedBarFrame.origin.y = frame.size.height - selectedBarHeight
+            selectedBarFrame.origin.y = frame.size.height - selectedBarHeight - 8
         }
 
         selectedBarFrame.size.height = selectedBarHeight
